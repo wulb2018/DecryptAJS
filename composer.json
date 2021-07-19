@@ -1,13 +1,16 @@
 {
     "name": "wulb2018/decryptajs",
+    "type": "library",
     "authors": [
         {
             "name": "wulubin",
             "email": "wulubin@nawang.cn"
         }
     ],
+    "license": "MIT",
     "require": {
-        "php": ">=7.1.0"
+        "php": "^7.2.5",
+        "guzzlehttp/guzzle": "^7.2.0"
     },
     "autoload": {
         "psr-4": {

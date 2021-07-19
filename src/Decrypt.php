@@ -3,7 +3,7 @@ namespace DecryptAJS;
 
 class Decrypt
 {
-    private static function getCookieStr($str)
+    public static function getCookieStr($str)
     {
         $arr = self::getOriginalArr($str);
         $str = self::deUnicodeForArr($arr);
