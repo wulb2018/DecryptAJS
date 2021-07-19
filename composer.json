@@ -16,5 +16,6 @@
         "psr-4": {
             "DecryptAJS\\": "src/"
         }
-    }
+    },
+    "minimum-stability": "stable"
 }
